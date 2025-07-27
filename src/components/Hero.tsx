@@ -82,7 +82,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-gradient-primary p-1 shadow-strong">
                 <img
-                  src="/lovable-uploads/889d0953-2123-423d-bc1b-5129c75263fa.png"
+                  src="/lovable-uploads/f1abd16b-8a51-4af9-b1ab-2793b8f8b094.png"
                   alt="Mamidi Ajay"
                   className="w-full h-full rounded-full object-cover bg-card"
                 />
