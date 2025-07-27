@@ -4,6 +4,14 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 
+// Import project images
+import ecommerceImage from '@/assets/project-ecommerce.jpg';
+import hospitalImage from '@/assets/project-hospital.jpg';
+import portfolioImage from '@/assets/project-portfolio.jpg';
+import lmsImage from '@/assets/project-lms.jpg';
+import businessImage from '@/assets/project-business.jpg';
+import dashboardImage from '@/assets/project-dashboard.jpg';
+
 const Projects = () => {
   const [filter, setFilter] = useState('all');
 
@@ -12,7 +20,7 @@ const Projects = () => {
       id: 1,
       title: "E-Commerce React Platform",
       description: "Full-featured e-commerce platform built with React, Redux, and RESTful APIs. Features include user authentication, shopping cart, payment integration, and admin dashboard.",
-      image: "/api/placeholder/600/400",
+      image: ecommerceImage,
       category: "web-app",
       technologies: ["React", "Redux", "Node.js", "MongoDB", "Stripe"],
       liveUrl: "#",
@@ -23,7 +31,7 @@ const Projects = () => {
       id: 2,
       title: "Hospital Management System",
       description: "Comprehensive hospital data management system for patient records, appointments, and staff management. Improved data accuracy by 99% and reduced processing time by 20%.",
-      image: "/api/placeholder/600/400",
+      image: hospitalImage,
       category: "system",
       technologies: ["HTML5", "CSS3", "JavaScript", "MySQL", "PHP"],
       liveUrl: "#",
@@ -34,7 +42,7 @@ const Projects = () => {
       id: 3,
       title: "Portfolio Website Template",
       description: "Modern, responsive portfolio template for developers and designers. Features smooth animations, dark mode toggle, and optimized performance.",
-      image: "/api/placeholder/600/400",
+      image: portfolioImage,
       category: "web-design",
       technologies: ["React", "Tailwind CSS", "Framer Motion", "TypeScript"],
       liveUrl: "#",
@@ -45,7 +53,7 @@ const Projects = () => {
       id: 4,
       title: "Learning Management System",
       description: "Educational platform for online courses with student progress tracking, video streaming, and interactive assignments. Used by 150+ students.",
-      image: "/api/placeholder/600/400",
+      image: lmsImage,
       category: "web-app",
       technologies: ["React", "Firebase", "Material-UI", "Video.js"],
       liveUrl: "#",
@@ -56,7 +64,7 @@ const Projects = () => {
       id: 5,
       title: "Responsive Business Website",
       description: "Corporate website with CMS integration, SEO optimization, and accessibility compliance (WCAG). Improved page load speed by 40%.",
-      image: "/api/placeholder/600/400",
+      image: businessImage,
       category: "web-design",
       technologies: ["HTML5", "SCSS", "JavaScript", "Webpack", "CMS"],
       liveUrl: "#",
@@ -67,7 +75,7 @@ const Projects = () => {
       id: 6,
       title: "Data Visualization Dashboard",
       description: "Interactive dashboard for hospital patient data visualization with real-time updates and comprehensive reporting features.",
-      image: "/api/placeholder/600/400",
+      image: dashboardImage,
       category: "system",
       technologies: ["React", "D3.js", "Chart.js", "REST API", "Excel Integration"],
       liveUrl: "#",
