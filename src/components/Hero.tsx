@@ -1,8 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 import heroBackground from '@/assets/hero-background.jpg';
+import { useTypewriter } from '@/hooks/useTypewriter';
 
 const Hero = () => {
+  const typewriterText = useTypewriter('Web Developer & Designer', 150);
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -32,8 +35,9 @@ const Hero = () => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
                 Mamidi Ajay
               </h1>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-muted-foreground">
-                Web Developer & Designer
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-muted-foreground min-h-[1.2em]">
+                {typewriterText}
+                <span className="animate-pulse">|</span>
               </h2>
             </div>
 
